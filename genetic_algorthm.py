@@ -42,3 +42,4 @@ for generation in range(generations):
 # Print the best individual in the final population
 best_individual = max(population, key=lambda chromosome: sum(chromosome))
 print("Best Individual:", best_individual)
+print("score:",sum(best_individual))
